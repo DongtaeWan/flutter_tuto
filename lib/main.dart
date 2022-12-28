@@ -6,6 +6,9 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+// Dart는 일반적인 자바 타입이랑 똑같은데
+// var를 사용할 수 있음 var는 javascript에서 쓰던 그대로 타입을 자동으로 인식하고
+// final 과 const가 있는데
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
           title: Text('Welcome to Flutter'),
         ),
         body: Center(
-          child: Text('Hello World'),
+          child: Text('Hell World'),
         ),
       ),
     );
